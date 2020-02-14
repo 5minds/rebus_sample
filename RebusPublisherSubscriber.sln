@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusPublisher", "Publisher\RebusPublisher.csproj", "{CA04420A-E9A6-46E1-9FD9-EA1FD6D649FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusSubscriber", "Subscriber\RebusSubscriber.csproj", "{B5A7CCFA-F61F-4BB3-A1A4-39761C0A205A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{3E1591A1-5263-4BDF-B6E1-4EABDCAAC59B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA04420A-E9A6-46E1-9FD9-EA1FD6D649FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA04420A-E9A6-46E1-9FD9-EA1FD6D649FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA04420A-E9A6-46E1-9FD9-EA1FD6D649FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA04420A-E9A6-46E1-9FD9-EA1FD6D649FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A7CCFA-F61F-4BB3-A1A4-39761C0A205A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A7CCFA-F61F-4BB3-A1A4-39761C0A205A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A7CCFA-F61F-4BB3-A1A4-39761C0A205A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A7CCFA-F61F-4BB3-A1A4-39761C0A205A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1591A1-5263-4BDF-B6E1-4EABDCAAC59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1591A1-5263-4BDF-B6E1-4EABDCAAC59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1591A1-5263-4BDF-B6E1-4EABDCAAC59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1591A1-5263-4BDF-B6E1-4EABDCAAC59B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
